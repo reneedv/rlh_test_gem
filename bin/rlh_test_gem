@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'rlh_test_gem'
+
+h = HelloWorld.new
+
+h.test
+
+puts ARGV.first.class
+
+h.test_args ARGV.first
